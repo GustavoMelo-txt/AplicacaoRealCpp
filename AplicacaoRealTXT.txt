@@ -10,9 +10,9 @@ int main (){
 	double INSS, FGTS, IR, precoHoras, totalDescontos;
 	double salarioBruto, salarioLiquido;
 	
-	cout << "Insira quantas horas você trabalha por mês: ";
+	cout << "Insira quantas horas vocÃª trabalha por mÃªs: ";
 	cin >> quantidadeHoras;
-	cout << "Insira quanto você ganha por hora: ";
+	cout << "Insira quanto vocÃª ganha por hora: ";
 	cin >> precoHoras;
 	
 	salarioBruto = quantidadeHoras * precoHoras;
@@ -31,7 +31,7 @@ int main (){
 		cout << "\n(-) INSS (10%)        		   :R$ " << INSS;
 		cout << "\nFGTS (11%)            		   :R$ " << FGTS;
 		cout << "\nTotal de descontos    		   :R$ " << totalDescontos;
-		cout << "\nSalário Liquido        		   :R$ " << salarioLiquido;
+		cout << "\nSalÃ¡rio Liquido        		   :R$ " << salarioLiquido;
 		
 	} else if (salarioBruto > 1500) {
 		IR = salarioBruto * 0.10;
@@ -43,7 +43,7 @@ int main (){
 		cout << "\n(-) INSS (10%)      		       :R$ " << INSS;
 		cout << "\nFGTS (11%)                      :R$ " << FGTS;
 		cout << "\nTotal de descontos              :R$ " << totalDescontos;
-		cout << "\nSalário Liquido                 :R$ " << salarioLiquido;
+		cout << "\nSalÃ¡rio Liquido                 :R$ " << salarioLiquido;
 		
 	} else if (salarioBruto > 2500){
 		IR = salarioBruto * 0.20;
@@ -55,7 +55,7 @@ int main (){
 		cout << "\n(-) INSS (10%)                  :R$ " << INSS;
 		cout << "\nFGTS (11%)                      :R$ " << FGTS;
 		cout << "\nTotal de descontos              :R$ " << totalDescontos;
-		cout << "\nSalário Liquido                 :R$ " << salarioLiquido;
+		cout << "\nSalÃ¡rio Liquido                 :R$ " << salarioLiquido;
 		
 	} else {
 		salarioLiquido = salarioBruto - INSS;
@@ -64,7 +64,7 @@ int main (){
 		cout << "\n(-) INSS (10%)         		   :R$ " << INSS;
 		cout << "\nFGTS (11%)             		   :R$ " << FGTS;
 		cout << "\nTotal de descontos     		   :R$ " << INSS;
-		cout << "\nSalário Liquido       		   :R$ " << salarioLiquido;
+		cout << "\nSalÃ¡rio Liquido       		   :R$ " << salarioLiquido;
 	}
 		
 	return 0;
